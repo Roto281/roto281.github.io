@@ -40,8 +40,8 @@ function launch() {
   $("#count").html(count)
   $("#displayPlace").html('')
 
-  alert("You have about " + area + " carton holes")
-  alert("You could have hold " + count + " eggs")
+  alert("You have " + area + " carton holes")
+  alert("You could can hold " + count + " eggs")
   $("#count").css("color", "blue")
   $("#count").css("background-color", "yellow")
 
